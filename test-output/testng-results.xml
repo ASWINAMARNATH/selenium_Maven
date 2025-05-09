@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-09T20:07:01 IST" name="MyTestSuite" finished-at="2025-05-09T20:07:07 IST" duration-ms="5822">
+    <groups>
+    </groups>
+    <test started-at="2025-05-09T20:07:01 IST" name="RegressionTests" finished-at="2025-05-09T20:07:07 IST" duration-ms="5822">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:tests.LoginTest@7161d8d1]" started-at="2025-05-09T20:07:01 IST" name="browserSetup" finished-at="2025-05-09T20:07:04 IST" duration-ms="3457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="goToWorkspace()[pri:0, instance:tests.LoginTest@7161d8d1]" started-at="2025-05-09T20:07:04 IST" name="goToWorkspace" finished-at="2025-05-09T20:07:06 IST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToWorkspace -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@7161d8d1]" started-at="2025-05-09T20:07:06 IST" name="teardown" finished-at="2025-05-09T20:07:06 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- RegressionTests -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>

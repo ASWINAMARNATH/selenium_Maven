@@ -1,0 +1,12 @@
+
+<suite name="MyTestSuite">
+<listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+</listeners>
+
+    <test name="RegressionTests">
+        <classes>
+            <class name="tests.LoginTest" />
+        </classes>
+    </test>
+</suite>
